@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation bar design usign html & css & javascript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-area">
+        <div class="header-container">
+            <div class="mobile-nav">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="site-nav-menu">
+                <ul class="primary-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Treatments</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#hospital-carousel-section">Hospitals</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li class="search-bar"><a href="#"> <i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="hero-section">
+        <div class="hero-content">
+            <p class="title-heading">Total Knee Replacement</p>
+            <p class="description">Total knee replacemnet is the surgery to remove and replace the whole<br /> damaged
+                knee joint with an artificial joint.</p>
+            <button>Enquiry Now</button>
+        </div>
+    </section>
+    <!--Content Section  -->
+    <section id="content-section">
+        <div class="content-navbar">
+            <a class="active" href="#overview-section">Overview</a>
+            <a href="#eligibility-section">Eligibility</a>
+            <a href="#preparation-section">Preparation</a>
+            <a href="#about-treatemnet-section">About Treatments</a>
+            <a href="#post-treatement-section">Post-Treatment Care</a>
+            <a href="#treatemnet-recovery-section">Recovery Tips</a>
+            <a href="#faq-section">FAQs</a>
+            <a href="#patient-recovery-section">Patient Stories</a>
+        </div>
+        <div class="parent-content">
+            <div class="Overview-content" id="overview-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <p class="overvieew-heading">Treatment Overview</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, deserunt omnis
+                            consectetur adipisicing elit adipisicing adipisicing elit
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, deserunt omnis
+                            doloribus dolor delectus temporibus quasi voluptates alias? Quaerat porro similique
+                            necessitatibus laboriosam sapiente, magni corrupti ipsa. Obcaecati, placeat quaerat!
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet Lorem
+                            ipsum dolor sit amet</p>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <img class="img-fluid overview-image" src="./img/doctor1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="eligibility-section">
+                <div class="row mb-1 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <p class="Eligibility-heading">Eligibility for treatement</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum, et
+                            dignissimos non repellendus laudantium adipisci numquam nesciunt amet aliquam! Laborum,
+                            recusandae doloribus! Sed voluptate officia omnis et non distinctio?</p>
+                        <p>In General, Gastric Bypass could be a good option if:</p>
+                        <ul>
+                            <li>The BMI Body mass index is 40 or more</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam debitis</li>
+                            <li>You are willing to make permenant change in the lifestyle.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="need-help-form">
+                            <div class="need-form">
+                                <p class="neeed-help-title">Need Help?</p>
+                                <p class="neeed-description">Just let us know. we will be happy <br />to assist you.</p>
+                                <input type="text" class="form-control" placeholder="Full Name" /><br />
+                                <input type="text" class="form-control" placeholder="Email" /><br />
+                                <input type="text" class="form-control" placeholder="Phone Number" /><br />
+                                <textarea class="form-control"
+                                    placeholder="Describe Your Treatement Requiremnt"></textarea><br />
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-primary p-2" type="button">Send Enquiry</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="preparation-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <p class="Eligibility-heading">Preparation before treatement</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum, et
+                            dignissimos non repellendus laudantium adipisci numquam nesciunt amet aliquam! Laborum,
+                            recusandae doloribus! Sed voluptate officia omnis et non distinctio?</p>
+                        <p>In General, Gastric Bypass could be a good option if:</p>
+                        <ul>
+                            <li>The BMI Body mass index is 40 or more</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam debitis</li>
+                            <li>You are willing to make permenant change in the lifestyle.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="about-treatemnet-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <p class="Eligibility-heading">About treatement</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum, et
+                            dignissimos non repellendus laudantium adipisci numquam nesciunt amet aliquam! Laborum,
+                            recusandae doloribus! Sed voluptate officia omnis et non distinctio?</p>
+                        <p>In General, Gastric Bypass could be a good option if:</p>
+                        <ul>
+                            <li>The BMI Body mass index is 40 or more</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam debitis</li>
+                            <li>You are willing to make permenant change in the lifestyle.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="post-treatement-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <p class="Eligibility-heading">Post treatement Care</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum, et
+                            dignissimos non repellendus laudantium adipisci numquam nesciunt amet aliquam! Laborum,
+                            recusandae doloribus! Sed voluptate officia omnis et non distinctio?</p>
+                        <p>In General, Gastric Bypass could be a good option if:</p>
+                        <ul>
+                            <li>The BMI Body mass index is 40 or more</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam debitis</li>
+                            <li>You are willing to make permenant change in the lifestyle.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="treatemnet-recovery-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <p class="Eligibility-heading">Treatment recovery tips</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum, et
+                            dignissimos non repellendus laudantium adipisci numquam nesciunt amet aliquam! Laborum,
+                            recusandae doloribus! Sed voluptate officia omnis et non distinctio?</p>
+                        <p>In General, Gastric Bypass could be a good option if:</p>
+                        <ul>
+                            <li>The BMI Body mass index is 40 or more</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam debitis</li>
+                            <li>You are willing to make permenant change in the lifestyle.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="faq-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <p class="Eligibility-heading-faq font-weight-bold" style="font-size: 2rem;">treatemnet FAQs</p>
+                        <ul class="accrodian">
+                            <li>
+                                <input type="radio" name="accrodian" id="first" checked />
+                                <label for="first">How do i know the clinic i am is varified?</label>
+                                <div class="content">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                                        necessitatibus
+                                        magnam iste atque odio enim quibusdam? Esse corrupti molestias nulla culpa dolor
+                                        porro, tenetur, dicta commodi voluptates dignissimos neque minus.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="accrodian" id="second" />
+                                <label for="second">I can't alone so can some family members of friend of mind accompany
+                                    me?</label>
+                                <div class="content">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                                        necessitatibus
+                                        magnam iste atque odio enim quibusdam? Esse corrupti molestias nulla culpa dolor
+                                        porro, tenetur, dicta commodi voluptates dignissimos neque minus.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="accrodian" id="third" />
+                                <label for="third">Can i see my doctor before i decide and i what about my post
+                                    recovery?</label>
+                                <div class="content">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                                        necessitatibus
+                                        magnam iste atque odio enim quibusdam? Esse corrupti molestias nulla culpa dolor
+                                        porro, tenetur, dicta commodi voluptates dignissimos neque minus.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="accrodian" id="fourth" />
+                                <label for="fourth">How do i share my reports and medical cases with the clinic of my
+                                    choice?</label>
+                                <div class="content">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                                        necessitatibus
+                                        magnam iste atque odio enim quibusdam? Esse corrupti molestias nulla culpa dolor
+                                        porro, tenetur, dicta commodi voluptates dignissimos neque minus.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="Eligibility-content" id="patient-recovery-section">
+                <div class="row mb-1">
+                    <div class="col-sm-12 col-md-6 col-lg-8">
+                        <p class="Eligibility-heading">Patient Stories and video</p>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="card1">
+                                    <div class="main-content"
+                                        style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p>Underwent Procedure for<br /> retinal detachmnet</p>
+                                        <i class="fa-solid fa-quote-right" style="font-size: 50px; color: pink;"></i>
+                                    </div>
+
+                                    <img src="./img/doctor1.jpg" width="300px" height="200px" />
+                                    <div class="container" style="display: flex; align-items: center; padding:0px ;">
+                                        <div class="image mt-3">
+                                            <img class="img-fluid"
+                                                src="https://w7.pngwing.com/pngs/314/27/png-transparent-avatar-boy-man-person-user-woman-avatar-vol-1-icon.png"
+                                                style="width: 50px; border-radius: 50%;">
+                                        </div>
+                                        <div class="text mt-3">
+                                            <p class="man-title">This is a beautiful picture.</p>
+                                            <p class="man-desc">Hello This is my Game</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img src="./img/doctor1.jpg" width="300px"/> -->
+                            </div>
+                            <div class="item">
+                                <div class="card1">
+                                    <div class="main-content"
+                                        style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p>Underwent Procedure for<br /> retinal detachmnet</p>
+                                        <i class="fa-solid fa-quote-right" style="font-size: 50px; color: pink;"></i>
+                                    </div>
+
+                                    <img src="./img/doctor1.jpg" width="300px" height="200px" />
+                                    <div class="container" style="display: flex; align-items: center; padding:0px ;">
+                                        <div class="image mt-3">
+                                            <img class="img-fluid"
+                                                src="https://w7.pngwing.com/pngs/314/27/png-transparent-avatar-boy-man-person-user-woman-avatar-vol-1-icon.png"
+                                                style="width: 50px; border-radius: 50%;">
+                                        </div>
+                                        <div class="text mt-3">
+                                            <p class="man-title">This is a beautiful picture.</p>
+                                            <p class="man-desc">Hello This is my Game</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img src="./img/doctor1.jpg" width="300px"/> -->
+                            </div>
+                            <div class="item">
+                                <div class="card1">
+                                    <div class="main-content"
+                                        style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p>Underwent Procedure for<br /> retinal detachmnet</p>
+                                        <i class="fa-solid fa-quote-right" style="font-size: 50px; color: pink;"></i>
+                                    </div>
+
+                                    <img src="./img/doctor1.jpg" width="300px" height="200px" />
+                                    <div class="container" style="display: flex; align-items: center; padding:0px ;">
+                                        <div class="image mt-3">
+                                            <img class="img-fluid"
+                                                src="https://w7.pngwing.com/pngs/314/27/png-transparent-avatar-boy-man-person-user-woman-avatar-vol-1-icon.png"
+                                                style="width: 50px; border-radius: 50%;">
+                                        </div>
+                                        <div class="text mt-3">
+                                            <p class="man-title">This is a beautiful picture.</p>
+                                            <p class="man-desc">Hello This is my Game</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img src="./img/doctor1.jpg" width="300px"/> -->
+                            </div>
+                            <div class="item">
+                                <div class="card1">
+                                    <div class="main-content"
+                                        style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p>Underwent Procedure for<br /> retinal detachmnet</p>
+                                        <i class="fa-solid fa-quote-right" style="font-size: 50px; color: pink;"></i>
+                                    </div>
+
+                                    <img src="./img/doctor1.jpg" width="300px" height="200px" />
+                                    <div class="container" style="display: flex; align-items: center; padding:0px ;">
+                                        <div class="image mt-3">
+                                            <img class="img-fluid"
+                                                src="https://w7.pngwing.com/pngs/314/27/png-transparent-avatar-boy-man-person-user-woman-avatar-vol-1-icon.png"
+                                                style="width: 50px; border-radius: 50%;">
+                                        </div>
+                                        <div class="text mt-3">
+                                            <p class="man-title">This is a beautiful picture.</p>
+                                            <p class="man-desc">Hello This is my Game</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img src="./img/doctor1.jpg" width="300px"/> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Doctor Info Section -->
+    <section id="doctor-carousel-section">
+        <p class="doctor-title">Doctors</p>
+        <p class="doctor-description">Top Orthopedic <span> Doctors</span></p>
+        <div class="owl-carousel owl-theme">
+            <!-- Add your carousel items here -->
+
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <div class="inner-box">
+
+                    </div>
+                    <p class="box1-heading">Dr Faique Falke</p>
+                    <p class="box1-title">Mustafa industrial abu dhabi</p>
+                    <p class="box1-descriptiom">doctor degree and specialist</p>
+                </div>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+    <!-- Hospital Info Section -->
+    <section id="hospital-carousel-section">
+        <p class="hospitals-title">Hospitals</p>
+        <p class="hospitals-description">Recommended<span> Hospitals</span></p>
+        <div class="owl-carousel owl-theme">
+            <!-- Add your carousel items here -->
+
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Applo Hospitals</p>
+                    <p class="box1-heading">Banglore<l< /p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Applo Hospitals</p>
+                    <p class="box1-heading">Banglore<l< /p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Medanta Hospitals</p>
+                    <p class="box1-heading">Chennai<l< /p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Jaslok Hospitals</p>
+                    <p class="box1-heading">Mumbai<l< /p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Applo Hospitals</p>
+                    <p class="box1-heading">Banglore<l< /p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Medanta Hospitals</p>
+                    <p class="box1-heading">Chennai<l< /p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box1">
+                    <img src="./img/doctor1.jpg" class="img-fluid" width='100%' height="200px">
+                    <p class="box1-title">Jaslok Hospitals</p>
+                    <p class="box1-heading">Mumbai<l< /p>
+                </div>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+        <p class="text-bold text-center">dont hesitate, contact us for better help and services. <span><a
+                    style="color: red;" href="#hospital-carousel-section">Explore all hospitals</a></span></p>
+    </section>
+    <!-- Expert Section -->
+    <section id="expert-section">
+        <div class="container">
+            <p class="heading">Stay healthy and strong to enjoy life</p>
+            <p class="title">Stay healthy and strong to enjoy life</p>
+            <div class="expert-contact">
+                <button>get in touch</button>
+                <p><a href="tel:+4733378901">+47 333 78 901</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget course-links-widget">
+                            <h5 class="widget-title">Importants Links</h5>
+                            <ul class="courses-link-list">
+                                <li><a href="#">- Home</a></li>
+                                <li><a href="#">- About</a></li>
+                                <li><a href="#">- FAQs</a></li>
+                                <li><a href="#">- Blog</a></li>
+                                <li><a href="#">- Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget latest-news-widget">
+                            <h5 class="widget-title">lastest news</h5>
+                            <ul class="courses-link-list">
+                                <li><a href="#">- Appolo Hospitals Delhi</a></li>
+                                <li><a href="#">- Medanta Hospitals</a></li>
+                                <li><a href="#">- Max-Hospitals</a></li>
+                                <li><a href="#">- Jaslok Hospitals</a></li>
+                                <li><a href="#">- Forties Hospitals</a></li>
+                                <li><a href="#">- Views Alls</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget newsletter-widget">
+                            <h5 class="widget-title">Speciality TreateMents</h5>
+                            <ul class="courses-link-list">
+                                <li><a href="#">- Knee Replacemnet Surgon</a></li>
+                                <li><a href="#">- Urologist</a></li>
+                                <li><a href="#">- Spine Surgon</a></li>
+                                <li><a href="#">- ENT Surgons</a></li>
+                                <li><a href="#">- Orthopedic</a></li>
+                                <li><a href="#">- Cardiologist</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget company-intro-widget">
+                            <h5 class="widget-title">Mediacal Turisom Destination</h5>
+                            <ul class="courses-link-list">
+                                <li><a href="#">- Medical Tourisam in India</a></li>
+                                <li><a href="#">- Medical Tourisam in Srilanka</a></li>
+                                <li><a href="#">- Medical Tourisam in UAE</a></li>
+                                <li><a href="#">- Medical Tourisam in JAPAN</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- widget end -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-sm-left text-center">
+                        <span class="copy-right-text">© 2020 Aafiya Mediretris All Rights Reserved. Design By
+                            Ideamagix.</span>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="terms-privacy d-flex justify-content-sm-end justify-content-center">
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer-bottom end -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
